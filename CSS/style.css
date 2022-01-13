@@ -1,0 +1,1102 @@
+.logo
+{
+    width: 75px;
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav a
+{
+    font-size: small;
+    color: #5f5f5f;
+    padding-bottom: 0.3%;
+    padding-top: 22px;
+    padding-left:22px;
+    padding-right: 22px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav a:hover
+{
+    color:#94b0fd;
+    border-top: 3px solid #0065FC;
+}
+
+header 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-title
+{
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.secondary-title
+{
+    font-size: small;
+    color:#5f5f5f;
+    padding-left: 30px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 30px;
+}
+
+div
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+.mapicon
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    width: 30px;
+    background-color:#f2f2f2;
+    border: 1px solid #fbfbfb;
+    font-size: small;
+}
+
+input
+{
+    display: flex;
+    width: 150px;
+    height: 35px;
+    font-weight: bold;
+    font-size: small;
+    padding-left: 5px;
+    background-color:white;
+    border: 1px solid #fbfbfb;
+    font-family: 'Raleway', sans-serif;
+}
+
+.researchbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    width: 80px;
+    background-color: #0065fc;
+    border: 1px solid #fbfbfb;
+    color:white;
+    font-size: smaller;
+}
+
+.researchtext
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    color:white;
+    font-size: smaller;
+}
+
+.loop 
+{
+    display: none;
+}
+
+.Filters
+{
+    margin-top: 19px;
+    font-size: small;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+.Filters i
+{
+    color: #0065FC;
+}
+
+.filtertext
+{
+    display: inline-flex;
+    position: relative;
+    margin: 0px;
+    font-size: small;
+    font-family:'Raleway', sans-serif;
+}
+
+.filter
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    border-radius: 80px;
+    margin-left: 15px;
+    padding-right: 10px;
+    height: 33.5px;
+    border: 1px solid #dadada;
+    background-color:white;
+}
+
+.filter:hover
+{
+    color: blue;
+}
+
+.file
+{
+    display: inline-flex;
+    border-radius: 45px;
+    padding: 10px;
+    margin-right: 5px;
+    position: relative;
+    background-color: #DEEBFF;
+    
+}
+
+.oval
+{
+    display: inline-flex;
+    border-radius: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 5px;
+    position: relative;
+    background-color: #DEEBFF;
+}
+
+.infobox
+{
+    padding-left: 30px;
+}
+
+.infocircle
+{
+    display: inline-flex;
+    border-radius: 50%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 8px;
+    color: #0065FC;
+    border: 1px solid #eaeaea;
+}
+
+.infotext
+{
+    display: inline-flex;
+    font-size: small;
+    color:#5f5f5f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.housingwithpopular
+{
+    display: flex;
+    padding-left: 30px;
+}
+
+.housingwithpopular a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#housingsectionbox
+{
+    display: table;
+    width: 525px;
+    height: 375px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #F2F2F2;
+}
+
+#housingsectionbox i
+{
+    margin-bottom: 10px;
+}
+
+.titlehousing
+{
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15px;
+}
+
+.thumbnailsboxhousing
+{
+    display: table;
+}
+
+.topboxhousing
+{
+    display: flex;
+}
+
+figure
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.housingthumbnail
+{
+    display: table;
+    border-radius: 15px;
+    object-fit: cover;
+    width: 160px;
+    height: 120px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+}
+
+.housingsmallbox
+{
+    object-fit: cover;
+    width: 160px;
+    height: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 1px solid #d2d4d8;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    margin-top: 3.5px;
+}
+
+figcaption
+{
+    display: table;
+    font-size: small;
+    padding-left: 10px;
+}
+
+figcaption h4
+{
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.priceabouttext
+{
+    font-size: smaller;
+    color: #5f5f5f;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.price
+{
+    color: black;
+    font-weight: bold;
+}
+
+.bluewithgraystars
+{
+    font-size: 8px;
+}
+
+.bluecolorstars
+{
+    font-size: 8px;
+    color: #0065FC ;
+}
+
+.graycolorstars
+{
+    font-size: 8px;
+    color: #dadada;
+}
+
+.bottomboxhousing
+{
+    display: flex;
+}
+
+.textmore
+{
+    font-size: small;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.popularsectionbox
+{
+    display: table;
+    width: 250px;
+    height: 455px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background-color: #F2F2F2;
+}
+
+.populartitletext
+{
+    display: flex;
+}
+
+.populartitletext i
+{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.populartext
+{
+    margin-left: 20px;
+}
+
+.popularthumbnailsboxhousing
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.5px;
+}
+
+.popularthumbnail
+{
+    display: flex;
+    border-radius: 15px;
+    object-fit: cover;
+    width: 210px;
+    height: 105px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+}
+
+.popularsmallbox
+{
+    width: 80px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    border: 1px solid #d2d4d8;
+    margin-left: 3.5px;
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+
+.popular
+{
+    margin-top: 25px;
+}
+
+#activitiessectionbox
+{
+    padding-left: 30px;
+    padding-bottom: 35px;
+}
+
+#activitiessectionbox a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.boxactivities
+{
+    display: flex;
+}
+
+.activities
+{
+    display: flex;
+    width: 210px;
+    height: 243px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    border: 1px solid #c8d2de;
+}
+
+.figcaptionbox
+{
+    display: flex;
+    width: 200px;
+    height: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #c8d2de;
+    padding-top: 13px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.boxsmallactivities
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.smallactivities
+{
+    display: flex;
+}
+
+.forttop
+{
+    width: 210px;
+    height: 110px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    border: 1px solid #c8d2de;
+}
+
+.smallfigcaptionbox
+{
+    display: flex;
+    padding-top: 13px;
+    font-weight: bold;
+}
+
+.fortbottom
+{
+    width: 200px;
+    height: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #c8d2de;
+}
+
+.frioultop
+{
+    width: 210px;
+    height: 71px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    border: 1px solid #c8d2de;
+}
+
+.frioulbottom
+{
+    width: 200px;
+    height: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #c8d2de;
+}
+
+.notredametop
+{
+    width: 210px;
+    height: 85px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    border: 1px solid #c8d2de;
+}
+
+.notredamebottom
+{
+    width: 200px;
+    height: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #c8d2de; 
+}
+
+.longchamptop
+{
+    width: 210px;
+    height: 97px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    object-fit: cover;
+    border: 1px solid #c8d2de;
+}
+
+.longchampbottom
+{
+    width: 200px;
+    height: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px solid #c8d2de;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #f2f2f2;
+    border: 1px solid #f5f5f5;
+}
+
+.boxfooter
+{
+    flex-direction: column;
+    padding-right: 140px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer li
+{
+    padding-bottom: 3px;
+}
+
+footer a
+{
+    font-size: 11px;
+    color: #5f5f5f;
+    padding-bottom: 0.3%;
+    text-decoration: none;
+}
+
+.topboxactivities
+{
+    display: flex;
+}
+
+.bottomboxactivities
+{
+    display: flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .logo
+    {
+        padding-left: 30px;
+    }
+
+    .main-title, .secondary-title, form, .Filters, .infobox, .housingwithpopular
+    {
+        padding-left: 20px;
+    }
+
+    .housingwithpopular
+    {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    #housingsectionbox
+    {
+        width: 653px;
+    }
+
+    .housingthumbnail
+    {
+        width: 185px;
+    }
+
+    .housingsmallbox
+    {
+        width: 185px;
+    }
+
+    .popularsectionbox
+    {
+        margin-top: 25px;
+        margin-left: 0px;
+        width: 713px;
+        height: 195px;
+    }
+
+    .popularthumbnailsboxhousing
+    {
+        flex-direction: row;
+    }
+
+    #activitiessectionbox
+    {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .boxactivities
+    {
+        display: table;
+    }
+
+    .activities
+    {
+        width: 400px;
+    }
+
+    .figcaptionbox
+    {
+        width: 390px;
+    }
+
+    .forttop, .frioultop, .notredametop, .longchamptop
+    {
+        width: 270px;
+    }
+
+    .fortbottom, .frioulbottom, .notredamebottom, .longchampbottom
+    {
+        width: 260px;
+    }
+
+    .boxfooter
+    {
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .researchtext
+    {
+        display: none;
+    }
+
+    header
+    {
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .logo
+    {
+        display: initial;
+        margin-left: 120px;
+        width: 95px;
+        height: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    nav ul 
+    {
+        padding-left: 0px;
+    }
+
+    nav a 
+    {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 16px;
+        color: #000000;
+    }
+
+    nav a:hover
+    {
+        color:#94b0fd;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+    .main-title
+    {
+        font-size: 23px;
+        padding-left: 10px;
+        margin-top: 15px;
+    }
+
+    .secondary-title
+    {
+        font-size: 16px;
+        padding-left: 10px;
+        color: #000000;
+    }
+
+    form 
+    {
+        padding-left: 10px;
+        margin-top: 30px;
+    }
+
+    .mapicon
+    {
+        width: 40px;
+        font-size: medium;
+    }
+
+    input
+    {
+        font-size: 16px;
+        width: 235px;
+        padding-left: 15px;
+    }
+
+    .researchbar
+    {
+        width: 40px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .loop
+    {
+        display: initial;
+    }
+
+    .Filters
+    {
+        padding-left: 0px;
+    }
+
+    .filtertext
+    {
+        font-size: 16px;
+        margin-right: 185px;
+        margin-left: 10px;
+    }
+
+    .filter
+    {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .moneybox
+    {
+        display: inline-table;
+    }
+
+    .childbox
+    {
+        display: inline-table;
+    }
+
+    .heartbox
+    {
+        display: table;
+    }
+
+    .dogbox
+    {
+        display: table;
+    }
+
+    .infobox
+    {
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .infocircle
+    {
+        display: inline-flex;
+        font-size: 12px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+
+    .infotext
+    {
+        font-size: 16px;
+        display: inline-flex;
+        color: #000000;
+    }
+
+    .titlehousing
+    {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .populartitletext i 
+    {
+        margin-left: 120px;
+        font-size: 14px;
+    }
+
+    figcaption
+    {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .popularthumbnailsboxhousing h4
+    {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    .housingthumbnailsboxhousing h4
+    {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .priceabouttext
+    {
+        font-size: 14px;
+        margin-top: 5px;
+        color: #000000;
+    }
+
+    .popular 
+    {
+        margin-top: 45px;
+    }
+
+    .bluecolorstars, .graycolorstars
+    {
+        font-size: 12px;
+    }
+
+    .housingwithpopular
+    {
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        margin: auto;
+        align-items: center;
+    }
+
+    #housingsectionbox
+    {
+        display: table;
+        width: 0px;
+        height: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: white;
+    }
+
+    .housingthumbnailsboxhousing
+    {
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .topboxhousing
+    {
+        display: table;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    figure 
+    {
+        margin: 5px;
+    }
+
+    .housingthumbnail
+    {
+        width: 325px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .housingsmallbox
+    {
+        width: 315px;
+        height: 175px;
+    }
+
+    .bottomboxhousing
+    {
+        display: table;
+    }
+
+    .popularsectionbox
+    {
+        margin-left: 0px;
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .popularthumbnailsboxhousing
+    {
+        align-items: center;
+        margin: auto;
+    }
+
+    .popularthumbnail
+    {
+        width: 330px;
+        height: 155px;
+    }
+
+    .popularsmallbox
+    {
+        width: 120px;
+        height: 145px;
+    }
+
+    .bleuetBlanc
+    {
+        margin-bottom: 35px;
+    }
+
+    .textmore
+    {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    #activitiessectionbox
+    {
+        padding-left: 0px;
+        display: table;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxactivities
+    {
+        display: table;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .topboxactivities
+    {
+        display: table;
+    }
+
+    .activities
+    {
+        width: 325px;
+        height: 190px;
+    }
+
+    .figcaptionbox
+    {
+        width: 310px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .bottomboxactivities
+    {
+        display: table;
+    }
+
+    .forttop
+    {
+        width: 325px;
+        height: 190px;
+    }
+
+    .fortbottom
+    {
+        width: 310px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .frioultop
+    {
+        width: 325px;
+        height: 190px;
+    }
+
+    .frioulbottom
+    {
+        width: 310px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .notredametop
+    {
+        width: 325px;
+        height: 190px;
+    }
+
+    .notredamebottom
+    {
+        width: 310px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .longchamptop
+    {
+        width: 325px;
+        height: 190px;
+    }
+
+    .longchampbottom
+    {
+        width: 310px;
+        font-size: 16px;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    footer 
+    {
+        display: table;
+        justify-content:center;
+        flex-direction: column;
+    }
+
+    footer a 
+    {
+        font-size: 14px;
+        color: #000000;
+    }
+
+    .boxfooter
+    {
+        margin-left: 25px;
+        padding-right: 0px;
+    }
+}
+
